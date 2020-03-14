@@ -14,7 +14,7 @@ MWLinkerListTests >> testAddingASecondItem [
 { #category : #tests }
 MWLinkerListTests >> testCreateNewMWLinkedList [
 	| list |
-	list := MWLinkedList new.
+	list := MWLinkedList new. "asd"
 	list add: 42.
 	
 	self assert: list getCount equals: 1
